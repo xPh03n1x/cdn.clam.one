@@ -1,0 +1,12 @@
+html,body{width:100%;height:100%;padding:0;margin:0;}
+body{font-family:"Muli";display:flex;justify-content:center;align-items:center;background:#19072f;}
+
+*{box-sizing:border-box;outline:none;transition:all linear 0.1s;}
+a,a>*{transition:none;text-decoration:none;}
+
+*[contenteditable="true"]{-webkit-user-select:text;user-select:text;}
+[contenteditable="true"].single-line{white-space:nowrap;overflow:hidden;}
+[contenteditable="true"].single-line *{display:inline;white-space:nowrap;}
+[contenteditable="true"].single-line br{display:none;}
+
+*[disabled="disabled"]{cursor:not-allowed;}
